@@ -1,5 +1,5 @@
 # Run Proyect
-Install dependencies using `yarn install` and then run `yarn dev`
+Go to `src/index.html` file and insert your Google Maps API, and then install dependencies using `yarn install` and then run `yarn dev`
 
 # The Task
 Imagine you've been hired to write an app that will allow people to perform searches to know the distance between 2 points, to allow them to plan their travel.
