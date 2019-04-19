@@ -1,0 +1,29 @@
+@import "~stylesheets/variables/index.sass"
+
+$horizontalMargin:  $spacingHuge * 4
+
+.mozio
+  &__Results
+    &__SearchBox
+      background: $colorBlue
+      padding: 0 $spacingHuge
+
+      .mozio__SearchBox__Input
+        border-right: 0
+
+      .mozio__Input
+        &__Label
+          color: $colorWhite
+
+        &__Control
+          color: $colorWhite
+
+    &__Message,
+    &__Spinner
+      margin: $spacingHuge
+
+    &__Spinner
+      text-align: center
+
+    &__SubmitArea
+      padding: 0 $spacingHuge

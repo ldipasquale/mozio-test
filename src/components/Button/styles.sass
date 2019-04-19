@@ -1,0 +1,25 @@
+@import "~stylesheets/variables/index.sass"
+
+.mozio
+  &__Button
+    display: inline-block
+    background: $colorYellow
+    padding: $spacingMedium $spacingLarge
+    border-radius: $spacingTiny
+    cursor: pointer
+
+    &--theme
+      &-gray
+        background: $colorLightGray
+
+    &__Icon
+      display: inline-block
+
+      &--right
+        margin-left: $spacingStandard
+
+      &--left
+        margin-right: $spacingStandard
+
+      &__Image
+        height: $spacingStandard

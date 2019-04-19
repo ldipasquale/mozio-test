@@ -1,0 +1,4 @@
+export default {
+  CALCULATE_DISTANCE: 'trip/CALCULATE_DISTANCE',
+  SAVE_USER_VALUES: 'trip/SAVE_USER_VALUES',
+}

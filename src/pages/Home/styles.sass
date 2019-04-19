@@ -1,0 +1,42 @@
+@import "~stylesheets/variables/index.sass"
+
+$horizontalMargin:  $spacingHuge * 4
+
+.mozio
+  &__Home
+    background: url('/public/background.jpg') no-repeat center bottom
+    background-size: cover
+
+    &__Header
+      padding: $spacingStandard * 2 $spacingHuge * 3
+
+    &__SearchArea
+      padding-top: $spacingXHuge * 4
+      margin: $spacingHuge $horizontalMargin
+      position: relative
+      z-index: 3
+
+      &__Box
+        background: $colorWhite
+        box-shadow: $boxShadow
+        border-radius: $spacingStandard
+
+    &__SubmitArea
+      background: $colorWhite
+      display: flex
+      justify-content: flex-end
+      position: relative
+      padding: 0 $horizontalMargin
+
+      &:before
+        background: $colorWhite
+        content: ''
+        position: absolute
+        top: $spacingXHuge * 2 * -1
+        left: 0
+        right: 0
+        height: $spacingXHuge * 2
+
+      &__Buttons
+        position: relative
+        z-index: 2
